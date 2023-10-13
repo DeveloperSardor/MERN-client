@@ -20,7 +20,7 @@ import React, { useState } from "react";
 import { ChatState } from "../../context/ChatProvider";
 import UserBadgeItem from "../UserAvatar/userBadgeItem";
 import axios from "axios";
-import UserListItem from "../userAvatar/UserListItem";
+import UserListItem from "../UserAvatar/UserListItem";
 
 const UpdateGroupChatModel = ({ fetchAgain, setFetchAgain, fetchMessages }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
