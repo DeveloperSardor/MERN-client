@@ -27,7 +27,7 @@ import ChatLoading from "../ChatLoading";
 import { Spinner } from "@chakra-ui/spinner";
 import ProfileModal from "./Profile";
 
-import UserListItem from "../userAvatar/UserListItem";
+import UserListItem from "../UserAvatar/UserListItem";
 import { ChatState } from "../../context/ChatProvider";
 import { getSender } from "../../config/ChatLogics";
 
