@@ -67,6 +67,7 @@ const Login = () => {
        localStorage.setItem("userInfo", JSON.stringify(data));
        setLoading(false);
        history.push("/chats");
+       location.reload()
      }else{
       throw new Error(`Not Found User`);
     }

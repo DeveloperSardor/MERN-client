@@ -82,7 +82,6 @@ const Register = () => {
         },
         config
       );
-      console.log(data);
       
       if(data.status != 401){
         toast({
@@ -95,6 +94,7 @@ const Register = () => {
         localStorage.setItem("userInfo", JSON.stringify(data));
         setLoading(false);
         history.push("/chats");
+        location.reload()
       }else{
           throw new Error(data.msg)
       }
